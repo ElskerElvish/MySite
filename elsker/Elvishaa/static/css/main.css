@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+a{
+    text-decoration: none;
+}
+.sk{
+    margin:30px 60px;
+    display: inline-block;
+    align-items: center;
+    border-radius:50%;
+    text-align: center;
+}
+.sk img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+.sk img:hover{
+    transform: translate(0%,-5%);
+    transition:0.3s ease-in-out;
+    border:5px dashed rgb(136, 122, 122);
+    border-radius: 26px;
+    background: #605757;
+    box-shadow:  20px 20px 40px #524a4a,
+             -20px -20px 40px #6e6464;
+}
+.boxes{
+    position: relative;
+    top:-50px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    padding:20px;
+    border-radius: 25px;
+    background: linear-gradient(315deg, #151515, #191919);
+    box-shadow:  -5px -5px 10px #111111,
+             5px 5px 10px #1d1d1d;  
+}
+body{
+    background-color:rgba(0, 0, 0, 0.802);
+}
+*{
+    scroll-behavior: smooth;
+    scrollbar-width: 10px;
+    color:white;
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family:"Source Code Pro";
+}
+.lcontainer{
+    position: fixed;
+    height: 100%;
+    background-color:#000;
+}
+.lcontainer h1{
+    font-size: 50px;
+    padding:20px 40px;
+    border-bottom: 1px solid #8ff;
+}
+
+.lcontainer li{
+    list-style: none;
+    font-weight:bold;
+    font-size:20px;
+    text-align: left;
+    padding: 15px;
+}
+.lcontainer li:hover{
+    color: aqua;
+    transition:0.8s ease;
+}
+.rcontainer{
+    margin-left: 290px;
+    text-align: center;
+}
+.banner{
+    height: 600px;
+    width:100%;   
+}
+.profiler{
+    position: relative;
+    top: -100px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+    border-radius: 50px;
+    background: linear-gradient(48deg, #2a2929, #323030,#222);
+    box-shadow:  -10px -10px 10px #282626,
+             20px 20px 60px #363434;;
+}
+.profiler:hover{
+    transform: translate(0%,5%);
+    transition:0.3s ease-in-out;
+    border-radius: 50px;
+    background: #343232;
+    box-shadow:  20px 20px 60px #212020,
+             -20px -20px 60px #221e1e;
+}
+.content{
+    float: left;
+    padding: 50px;
+    word-wrap: wrap;
+}
+.user{
+    float: right;
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+}
